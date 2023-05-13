@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+
+
+#main_body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+    
+
+}
+
+#main_header {
+    background: #FFFFFF;
+    padding: 20px 40px;
+    border-bottom: 5px rgb(231, 221, 221) solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#main_header .nav_bar .home {
+    color: #065666;
+}
+
+.image_logo {
+    padding-left: 60px;
+}
+
+#main_header .nav_bar a{
+    color:  #636363;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.nav_bar button {
+    margin-left: 50px;
+    width: 260px;
+    height: 75px;
+    border: none;
+    background: #6FC247;
+    color: #FFFFFF;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.nav_bar .frame1 {
+    position: absolute;
+    top: 48px;
+    left: 1220px;
+    width: 20px;
+}
+
+.my_business {
+    position: relative;
+    left: 200px;
+
+    margin-top: 30px;
+}
+
+.my_business .my_line {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 700px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.my_business p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    margin-top: 30px;
+    width: 600px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.my_business .req_demo {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.my_business .req_demo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background:#6FC247;
+    font-weight: 600;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border:none;
+    border-radius: 12px;
+}
+
+.my_business .req_demo1 .frame{
+    position: absolute;
+    left: 160px;
+    width: 17px;
+    
+}
+
+.my_business .req_demo2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: #fff;
+    font-weight: 600;
+    color:#6FC247;
+    width: 170px;
+    height: 50px;
+    border:1px #6FC247 solid;
+    border-radius: 16px;
+}
+
+.body_img img {
+    margin-top: 350px;
+    width: 1100px;
+    height: 637px;
+}
+
+.Trusted {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Trusted h2 {
+    margin-bottom: 20px;
+}
+
+.Trusted p {
+    margin-left: 300px;
+    line-height: 25px;
+    width: 800px;
+}
+
+.my_images{
+    margin: 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.my_images .item {
+    background:#f0eded;
+}
+
+.black_body {
+    background: black;
+    color: #D7D7D7;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.black_body h3, .two{
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.black_body .flex_me {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    gap: 40px;
+}
+
+.section {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.section .my_section {
+    position: absolute;
+    left: 70px;
+    top: 80px;
+    right: 800px;
+    line-height: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section .my_section h2, h3 {
+    margin-bottom: 10px;
+}
+
+.my_section .accurate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    margin-right: 100px;
+}
+
+.my_section .div1 {
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.my_section .div1 p {
+    margin-right: 120px;
+}
+
+
+.section .aside {
+    margin-right: 30px;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+}
+
+.aside .image1 {
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 800px;
+}
+
+footer {
+    position: relative;
+    top: 850px;
+    left: 450px;
+}
+
+footer button {
+    position: absolute;
+    background: #6FC247;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border: #fff;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+}
+
+footer .frame2 {
+    position: absolute;
+    left: 150px;
+    width: 15px;
+}
